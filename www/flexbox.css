@@ -1,0 +1,91 @@
+
+/*flexbox-1*/
+.flex-container{
+    display: flex;
+    width:75%;
+    height:60%;
+
+    margin-top: 5px;
+    margin-left: 160px;
+}
+
+.flex-item{
+    background-color:#001a33;
+    width:450px;
+    height:30px;
+    margin-right:10px;
+    margin-left: 10px;
+   
+    color:#00b3b3;
+    text-align-last: center;
+    border-radius: 10px;
+    
+    font-size: 25px;
+}
+
+/*flexbox-2*/
+.flex-contain{
+    display: flex;
+    width:75%;
+    height:60%;
+  
+   margin-left: 160px;
+    
+}
+
+.flex-it{
+    background-color: #001a33;
+    width:450px;
+    height:400px;
+
+    color:#00b3b3;
+    text-align: center;
+    border-radius: 10px;
+    margin-right:10px;
+    margin-left: 10px;
+   
+    font-size: 25px;
+    
+    
+
+
+  border: 2px solid #fff;
+  
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              border-color 0.2s ease-out;
+}
+
+.A ul{
+    display: inline;
+}
+ li.A{
+     display: table-row;
+     
+     
+}
+.A a:link{
+    color: white;
+    text-decoration: none;
+   
+}
+.A a:visited{
+    color:white;
+}
+.A a:hover{color:black;
+background-color:gray;}
+
+
+
+
+.flex-it:hover,
+.flex-it:active {
+ color:black;
+  background-color:#00b3b3;
+  border-color: #fff; /* fallback */
+  border-color: rgba(255, 255, 255, 0.4);
+  transition: background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+transition: all 0.5s ease-in-out;
+}

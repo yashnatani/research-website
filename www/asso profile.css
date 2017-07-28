@@ -1,0 +1,55 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border-bottom-style:solid;
+    text-align: left;
+    padding: 8px;
+}
+
+.file{
+    color:#00b3b3;
+    font-size: 30px;
+}
+
+.mar{
+    margin-left: 130px;
+
+}
+
+.shift{
+    width:70%;
+}
+
+
+.blo{
+    display: flex;
+}
+
+.flex-containor{
+    display: flex;
+    width:80%;
+    height:100%;
+    margin-left: 130px;
+    
+}
+.flex-item{
+    width:100%;
+    height:50%;
+   
+}
+
+.flexi{
+    width:50%;
+    height:50%;
+    margin-top: 150px;
+}
+
+
+.res{
+    width:70%;
+    margin-left: 130px;
+}

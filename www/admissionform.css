@@ -1,0 +1,276 @@
+/*input form */
+
+	/* header css */
+    #imag{
+    margin-left: 330px;
+    position:absolute;
+    text-decoration: none;
+}
+
+/*rtu logo */
+
+#logo{
+
+       
+    margin-left: 450px;
+    margin-top: 40px;
+   color:white;
+    
+}
+#logo a:link{
+color: #00b3b3  ;
+    text-decoration: none;
+}
+
+#logo a:visited{
+color: #00b3b3  ;
+    text-decoration: none;
+}
+
+#logo a:active{
+color: #00b3b3  ;
+    text-decoration: none;
+}
+/*header id*/
+#header{
+    display: inline-block;
+    margin-top: 10px;
+   background-color:#001a33;
+    width: 100%;
+    padding-top: 10px;
+}
+	  
+
+
+
+
+/* button styling */
+
+
+input[type=submit] {
+    width: 100%;
+    background-color: #001a33;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #00b3b3;
+}
+
+/* input text styling */	
+
+input[type=text],select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+   border: none;
+    color: #001a33;
+    font-size: 15px;
+    border-bottom-style: solid;
+    border-bottom-color: #001a33;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus{
+  background-color: #00b3b3;
+    transition-duration: 0.5s;
+}
+
+select:focus{
+    background-color: #00b3b3;
+    color:white;
+}
+.formo{
+    margin-right: 130px;
+    margin-left: 130px;
+}
+
+
+label{
+    font-size: 18px;
+    
+}
+
+/* styling of radio button */
+
+
+input[type=radio].css-checkbox {
+							position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+						}
+
+						input[type=radio].css-checkbox + label.css-label {
+							padding-left:26px;
+							height:21px; 
+							display:inline-block;
+							line-height:21px;
+							background-repeat:no-repeat;
+							background-position: 0 0;
+							font-size:18px;
+							vertical-align:middle;
+							cursor:pointer;
+
+						}
+
+						input[type=radio].css-checkbox:checked + label.css-label {
+							background-position: 0 -21px;
+						}
+						label.css-label {
+				background-image:url("http://www.csscheckbox.com/checkboxes/u/csscheckbox_5ab92245cf78caac21ff087cfc374219.png");
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+
+
+/* styling of date */
+
+
+input[type=date] {
+  height: 35px;
+  margin: 0 auto;
+  width: 30%;
+    margin-left: 20px;
+  font-family: arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #00b3b3;
+  outline: none;
+  border: 0;
+  border-radius: 3px;
+  padding: 0 3px;
+  color: #001a33;
+    text-align: justify;
+  
+  &::-webkit-datetime-edit-month-field {
+    color: #001a33;
+  }
+  &::-webkit-datetime-edit-day-field {
+    color: #001a33;
+  }
+  &::-webkit-datetime-edit-year-field {
+    color: #001a33;
+  }
+  
+  &::-webkit-clear-button {
+    font-size: 18px;
+    height: 30px;
+    position: relative;
+    right: 5px;
+    margin-right: 4px;
+  }
+  &::-webkit-inner-spin-button {
+    height: 30px;
+  }
+  &::-webkit-calendar-picker-indicator {
+    font-size: 18px;
+    
+        
+    &:hover {
+      background-color: #00b3b3;
+      color: #00b3b3;
+      cursor: pointer;
+    }
+    &:active {
+      color: #00b3b3;
+    }
+  }
+}
+
+
+/* styling of numbers */
+
+input[type=number] {
+  height: 35px;
+  margin: 0 auto;
+  width: 30%;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  font-family: arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #00b3b3;
+  outline: none;
+  border: 0;
+  border-radius: 3px;
+  padding: 0 3px;
+  color: #001a33;
+}
+
+/* eliinating increament-decreament*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/* eliinating increament-decreament*/
+
+input[type=date]::-webkit-inner-spin-button, 
+input[type=date]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+
+
+label{
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+/* styling of email*/
+
+input[type=email] {
+  height: 35px;
+  margin: 0 auto;
+  width: 30%;
+   
+    margin-left: 20px;
+  font-family: arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+ 
+  background-color: #00b3b3;
+  outline: none;
+  border: 0;
+  border-radius: 3px;
+  padding: 0 3px;
+  color: #001a33;
+}
+
+
+table{
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

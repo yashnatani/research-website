@@ -1,0 +1,249 @@
+
+/* header css */
+    #imag{
+    margin-left: 330px;
+    position:absolute;
+    text-decoration: none;
+}
+/*rtu logo */
+
+#logo{
+
+       
+    margin-left: 450px;
+    margin-top: 40px;
+   color:white;
+    
+}
+#header{
+    display: inline-block;
+    margin-top: 10px;
+   background-color:#001a33;
+    width: 100%;
+    padding-top: 10px;
+}
+#header a{
+    color: #00b3b3;
+    text-decoration: none;
+}
+#header a::hover{
+    color:aqua;
+    
+}
+
+ #sgn{
+    list-style-type: none;
+    margin-left: 60px;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid white;
+    background-color:white;
+       transition: all 0.3s ease-out;
+}
+
+  ul {
+    list-style-type: none;
+    margin-top: 5px;
+      margin-bottom: 5px;
+    
+
+    overflow: hidden;
+    background-color: #001a33;
+}
+
+li.dropdown {
+    float: left;
+    padding-left: 20px;
+    font-family:times new roman;
+    font-size: 20px;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #00b3b3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+ li a:hover, .dropdown:hover .dropbtn {
+    background-color: gray;
+}
+
+li.dropdown {
+    display: inline;
+}
+
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #001a33;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #00b3b3;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color:gray}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*search*/
+input[type=text]{
+    width:40%;
+    border-spacing:border-box;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 16px;
+    background-color: white;
+    background-image:url("searchicon.png");
+    background-position: 10px 10 px;
+    background-repeat: no-repeat;
+    padding: 8px 15px 8px 15px;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus{
+    background-color: #666699;
+    color:white;
+    width:60%;
+}
+/*slider*/
+
+.hei{
+height:450px;
+}
+
+
+
+
+
+.A ul{
+    display: inline;
+}
+ li.A{
+     display: table-row;
+}
+
+.foot{
+    background-color: #001a33;
+    color:#00b3b3;
+    width:100%;
+    margin-top: 25px;
+}
+
+.foot table {
+    font-family: arial, sans-serif;
+   padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    margin-left: 180px;
+    margin-right: 150px;
+    
+}
+
+td, th {
+   
+    text-align:left;
+    padding-right: 10px;
+   
+}
+
+
+
+.cop{
+    margin-left: 50px;
+}
+
+.secfoot{
+  
+    width:100%;
+    color:#E0E0E0 ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ height=200px;
+    background-color: 	#606060 ;
+}
+
+.secfoot table{
+    margin-left: 155px;
+    font-family: arial,sans-serif;
+   
+}
+
+#soc{
+margin-left: 80px;
+    float: right;
+}
+
+.foot a{
+    color:#00b3b3;
+    text-decoration: none;
+}
+
+.foot a:hover{
+background-color: darkgray;
+    transition: all 0.5s ease-in-out;
+    border-radius: 5px;
+    color: white;
+}
+
+.fra{
+    height:450px;
+    border:none;
+   
+}
+
+
+.threee{
+    border:none;
+}
+
+.jeshu{
+    border:none;
+}
+
+h3{
+    color:#00b3b3;
+    background-color: #001a33;
+    width:80%;
+    padding: 10px;
+}
+p{
+    text-align: justify;
+    width: 80%;
+    font-size: 18px;
+}
+
+p a:link{
+    color:#00b3b3;
+    text-decoration: none;
+}
+
+p a:visited{
+    color:#00b3b3;
+    text-decoration: none;
+}
+
+
+.dst{
+    background-color: white;
+    margin-left: 100px;
+    
+}
